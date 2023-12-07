@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta charset="UTF-8">
+	<title>Portofolio Galih</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<header>
+	 <a href="#" class="logo">Portofolio</a>
+	 <div class="toggle"></div>
+	 <ul>
+	 	<li><a href="#Home">Home</a></li>
+	 	<li><a href="#About">about</a></li>
+	 	<li><a href="#Pendidikan">pendidikan</a></li>
+	 	<li><a href="#Pengembangan">Profesional Skill</a></li>
+	 	<li><a href="#Kontak">kontak</a></li>
+
+	 </ul>
+</header>
+ <section class="banner" id="Home">
+ 	<div class="text">
+ 		<h2>Haii,saya<br><span> Galih Era Anarki</span></h2>
+ 		<h3>SAYA PEMULA PENGEMBANGAN WEB</h3>
+ 		<a href="#About" class="btn">About</a>
+ 	</div>
+ </section>
+ <section class="about" id="About">
+ 	<div class="heading">
+ 		<h2>About</h2>
+ 	</div>
+ 	<div class="content">
+ 		<div class="contentbx w50">
+ 			<h3>SAYA PEMULA PENGEMBANGAN WEB</h3>
+ 			<p>Pengembangan web adalah istilah yang luas untuk pekerjaan yang terlibat dalam mengembangkan suatu situs web untuk internet (World Wide Web) atau internet (jaringan pribadi). Hal ini dapat mencakup desain web, pengembangan konten web, penghubung klien, sisi klien/server-side scripting, web server dan keamanan jaringan konfigurasi, dan e-commerce pembangunan. Namun, kalangan profesional web, “pengembangan web” biasanya merujuk pada aspek non-desain utama dari membangun situs web: menulis markup dan coding .<br><br>Awal mula saya belajar mengembangkan website karena ada niatan untuk merubah dunia di kehidupan saya,dan untuk mencari massa depan yang lebih jelas,karena itu sedikit demi sedikit saya belajar,apa itu website dan apa itu bahasa pemograman.<br><br>"Bermimpi Jangan Hanya di malam hari,Bermimpi jangan di saat sepi,Tapi Bermimpilah pada setiap napas yang kita hirup hari ini"</p>
+ 		</div>
+ 		<div class="w50">
+ 			<img src="BERSAMA.jpg" class="img">
+ 	</div>
+
+
+ </section>
+ <section class="services" id="Pendidikan">
+ 	<div class="heading white"> 
+ 		<h2>Pendidikan</h2>
+ 	</div>
+ 	<div class="content">
+ 		<div class="servicesbx">
+ 			<img src="iconSD.png">
+ 			<h2>Sekolah Dasar</h2>
+ 			<p>Saya Bersekolah Dasar Di SD inpres 22 Prafi,Distrik Prafi,Kabupaten Manokwari,papua barat</p>
+ 		</div>
+ 		<div class="servicesbx">
+ 			<img src="iconSMP.png">
+ 			<h2>Sekolah Menengah Pertama</h2>
+ 			<p>Saya Bersekolah menengah Pertama di SMP VIP Al-huda Kebumen</p>
+ 		</div>
+ 		<div class="servicesbx">
+ 			<img src="iconSMA.png">
+ 			<h2>Sekolah Menengah Kejuruan</h2>
+ 			<p>Saya Melanjutkan Sekolah Menengah kejuruan (SMK),Mengambil Jurusan Multimedia,di SMK Negeri 4 Manokwari,Distrik Prafi,Kabupaten Manokwari,Papua Barat </p>
+ 		</div>
+ 		<div class="servicesbx">
+ 			<img src="mu.png">
+			
+ 			<h2>Magistra Utama</h2>
+ 			<p>Setelah Selesai pendidikan sekolah,saya Lebih Memilih melanjutkan Kuliah D1 di Magistra Utama Purwokerto,</p>
+ 		</div>
+ 	</div>
+ </section>
+ <section class="pengembangan" id="Pengembangan">
+ 	<div class="heading "> 
+ 		<h2>Profesional Skill </h2>
+ 		<p>Desain Grafis</p>
+ 	</div>
+ 	<div class="content">
+ 		<div class="pengembanganbx">
+ 			<img src="visual.jpg">
+ 		</div>
+ 		<div class="pengembanganbx">
+ 			<img src="MOBIL.jpg">
+ 		</div>
+ 		<div class="pengembanganbx">
+ 			<img src="kota.jpg">
+ 		</div>
+ 		<div class="pengembanganbx">
+ 			<img src="RUMAH.jpg">
+ 		</div>
+ 		</div>
+ 		<div class="heading">
+ 			<a href ="https://api.whatsapp.com/send?phone=6282297690499&text=assalamualaikum%20%0A%0Awkwkwwk" class="btn">view more</a>
+ 		</div>
+ </section>
+ <section class="kontak" id="Kontak">
+ 	<div class="Lebih">
+		<h2 class="ko">TERIMAKASIH </h2>
+		<h4 class="ajg">Info Lebih Lanjut Bisa Hubungi Kontak Di Bawah Ini <br>wkwkwk</h4>
+ 	</div>
+	<div class="wrapper">
+		<ul class="wrapper">
+			<li class="icon facebook">
+			  <span><i class="fab fa-facebook-f"></i></span>
+			</li>
+			<li class="icon youtube">
+			  <span><i class="fab fa-youtube"></i></span>
+			</li>
+			<li class="icon tiktok">
+			  <span><i class="fab fa-tiktok"></i></span>
+			</li>
+			<li class="icon instagram">
+			  <span><i class="fab fa-instagram"></i></span>
+			</li>
+		  </ul>
+
+ 	
+ </section>
+ <script type="text/javascript">
+ 	window.addEventListener('scroll', function(){
+ 		var header = document.querySelector('header');
+ 		header.classList.toggle('sticky', window.scrollY > 0);
+ 	});
+ </script>
+
+
+
+</body>
+</html> 
